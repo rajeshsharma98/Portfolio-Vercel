@@ -167,7 +167,13 @@ const extrasItems = [
             color="gray"
             className="flex items-center gap-2"
           >
-            view more
+            <a
+              href="/resume/Resume-Rajesh_Sharma.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View My Resume
+            </a>
             <ArrowRightIcon
               strokeWidth={3}
               className="h-3.5 w-3.5 text-gray-900"
