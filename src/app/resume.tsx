@@ -152,7 +152,7 @@ const extrasItems = [
       : extrasItems;
 
   return (
-    <section id="resume" className="px-8 py-24 h-[750px] overflow-hidden">
+    <section id="resume" className="px-6 sm:px-8 py-16 lg:py-24 lg:h-[750px] lg:overflow-hidden">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
           <Typography variant="h2" color="blue-gray">
@@ -201,7 +201,7 @@ const extrasItems = [
               Extras
             </Button>
           </div>
-          <div style={{ height: '500px' }} className="grid gap-y-6 overflow-y-auto">
+          <div className="grid gap-y-6 lg:h-[500px] lg:overflow-y-auto">
             {currentItems.map((props, idx) => (
               <ResumeItem key={idx} {...props} />
             ))}
