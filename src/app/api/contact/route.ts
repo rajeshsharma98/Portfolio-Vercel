@@ -64,8 +64,8 @@ Best,
 ${SITE_NAME}
 `,
       html: `<p>Hi ${firstName},</p>
-             <p>Thanks for reaching out — I received your message and will get back to you soon.</p>
-             <p><strong>Interest:</strong> ${type}</p>
+             <p>Thanks for reaching out. I received your message and will get back to you soon.</p>
+             <p><strong>Interest:</strong> ${type}</p><br/>
              <p>${(message || "").replace(/\n/g, "<br/>")}</p>
              <p>Best,<br/>${SITE_NAME}</p>`,
     });
