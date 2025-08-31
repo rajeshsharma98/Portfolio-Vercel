@@ -81,31 +81,31 @@ export function ContactForm() {
                 Contact Information
               </Typography>
               
-              <div className="flex gap-5">
-                <PhoneIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
+              <div className="flex flex-wrap items-start gap-3 sm:gap-5">
+                <PhoneIcon className="h-5 w-5 text-white shrink-0" />
+                <Typography variant="h6" color="white" className="mb-2 max-w-full break-words text-sm sm:text-base">
                   Indianapolis, US
                 </Typography>
               </div>
               
-              <div className="flex my-2 gap-5">
-                <EnvelopeIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
-                  sharmarajesh98@outlook.com
+              <div className="flex my-2 flex-wrap items-start gap-3 sm:gap-5">
+                <EnvelopeIcon className="h-5 w-5 text-white shrink-0" />
+                <Typography variant="h6" color="white" className="mb-2 max-w-full break-all sm:break-normal text-sm sm:text-base">
+                  <a href="mailto:sharmarajesh98@outlook.com" className="underline decoration-transparent hover:decoration-inherit">sharmarajesh98@outlook.com</a>
                 </Typography>
               </div>
 
-              <div className="flex my-2 gap-5">
-                <ChatBubbleLeftEllipsisIcon className="h-6 w-6 text-white" />
+              <div className="flex my-2 flex-wrap items-start gap-3 sm:gap-5">
+                <ChatBubbleLeftEllipsisIcon className="h-5 w-5 text-white shrink-0" />
 
                 <a
                   href="https://www.linkedin.com/in/rajeshsharma98/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  // className="flex mb-10 gap-5 items-center"
+                  className="flex items-center gap-2 flex-wrap max-w-full"
                 >
                   <i className="fa-brands fa-linkedin text-white text-xl" />
-                  <Typography variant="h6" color="white" className="mb-2">
+                  <Typography variant="h6" color="white" className="mb-2 max-w-full break-words text-sm sm:text-base">
                     LinkedIn
                   </Typography>
                 </a>

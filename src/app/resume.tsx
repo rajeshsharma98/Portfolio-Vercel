@@ -181,22 +181,25 @@ const extrasItems = [
           </Button>
         </div>
           <div className="col-span-1 grid w-full pr-0 lg:pr-10 xl:pr-32 lg:-ml-5">
-          <div className="flex gap-4 mb-6">
+          <div className="flex flex-wrap gap-2 mb-6">
             <Button
               variant={activeTab === "education" ? "filled" : "outlined"}
               onClick={() => setActiveTab("education")}
+              className="flex-1 min-w-[110px]"
             >
               Education
             </Button>
             <Button
               variant={activeTab === "experience" ? "filled" : "outlined"}
               onClick={() => setActiveTab("experience")}
+              className="flex-1 min-w-[110px]"
             >
               Experience
             </Button>
             <Button
               variant={activeTab === "extras" ? "filled" : "outlined"}
               onClick={() => setActiveTab("extras")}
+              className="flex-1 min-w-[110px]"
             >
               Extras
             </Button>
