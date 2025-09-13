@@ -63,7 +63,7 @@ export function Resume() {
     icon: BeakerIcon,
     children: (
       <>
-        <strong>Founding Full Stack</strong> - Smart Charity
+        <strong>Founding Full Stack Developer</strong> - Smart Charity
       </>
     ),
     className: "h-5 w-5",
