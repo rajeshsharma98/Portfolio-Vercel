@@ -84,7 +84,7 @@ export function ContactForm() {
               <div className="flex flex-wrap items-start gap-3 sm:gap-5">
                 <PhoneIcon className="h-5 w-5 text-white shrink-0" />
                 <Typography variant="h6" color="white" className="mb-2 max-w-full break-words text-sm sm:text-base">
-                  Indianapolis, US
+                  New York, US
                 </Typography>
               </div>
               
