@@ -82,9 +82,9 @@ export function Skills() {
           I build intelligent, scalable, and 
           automation-first systems that power real-time decisions, optimize processes, and unlock data-driven growth. 
           From architecting multi-tenant platforms and orchestrating ETL pipelines to deploying NLP and LLM-powered applications, 
-          I bring together software engineering, data science, and cloud expertise to turn complex problems into seamless digital products. 
+          I bring together software engineering, data science, and cloud expertise to turn complex problems into seamless digital products. My systems have served more than 10K users, 
+          improved engagement by over 20 percent, reduced manual workloads by 60 percent, and saved more than $20K per month in operational costs while driving measurable business growth and efficiency.
           Whether it’s accelerating research with ML, scaling nonprofit platforms, or automating customer intelligence : I engineer solutions that create measurable impact.
-
         </Typography>
   
       </div>
