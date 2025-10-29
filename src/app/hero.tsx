@@ -23,7 +23,7 @@ function Hero() {
             className="mb-4 text-5xl !leading-tight text-3xl text-gray-500"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-       Software & Data Solutions Engineer
+       Full-Stack Engineer & Data Scientist
           </Typography>
           <Typography
             variant="lead"
