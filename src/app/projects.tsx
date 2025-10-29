@@ -6,6 +6,33 @@ import { getImagePrefix } from "../../utils/utils";
 import { link } from "fs";
 
 const PROJECTS = [
+        {
+    img: `${getImagePrefix()}image/rag.png`,
+    title: "AI-Powered Grocery Planner with Custom RAG Implementation",
+    desc: "Built a production-grade full-stack application featuring custom RAG (Retrieval-Augmented Generation) from scratch to solve meal planning and food waste challenges. Engineered hybrid search combining BM25 keyword matching (60%) and vector similarity (40%) across 768-dimensional embeddings to retrieve relevant recipes with 95%+ accuracy. Integrated local LLM (Llama 3.2) via Ollama for privacy-first conversational AI with zero API costs. Developed intelligent algorithms for unit normalization using Pint library, ingredient consolidation across recipes, and shelf-life optimization that reduces food waste by 30% through graph-based meal sequencing. ",
+     link: "https://github.com/rajeshsharma98/Grocery-Planner-RAG",
+
+  },
+
+     {
+    img: `${getImagePrefix()}image/mdp.png`,
+    title: "Cryptocurrency & NFT Market Data Pipeline",
+    desc: "Built an end-to-end data intelligence system to collect, process, and analyze 584K+ digital asset records for market research and policy impact studies. Developed resilient ETL pipelines using Python to extract 84K+ cryptocurrency transactions,  plus 500K+ NFT records from OpenSea's marketplace API. Automated pipeline that achieved 95%+ data completeness while reducing API failures by 80%.Conducted comprehensive analysis of OpenSea's January 2022 policy changes, quantifying impacts on creator behavior, collection monetization, and secondary market dynamics to deliver actionable insights for fundraising strategies and platform economics research.",
+    link: "https://github.com/rajeshsharma98/",
+  },
+      {
+    img: `${getImagePrefix()}image/hme.png`,
+    title: "HathiMine - Automated OCR Extraction Library",
+    desc: "Built a Python library to automate OCR text extraction from HathiTrust's 17M+ book database using OAuth1 authentication and parallel processing. Designed fault-tolerant data extraction workflows with checkpointing, retry logic, and session management to handle multi-GB datasets efficiently. Implemented chunked file processing (200K rows/batch) and concurrent API requests (100 workers) with intelligent rate-limiting strategies, reducing text retrieval time by 70% across 10,000+ pages while ensuring 100% completion on interrupted workflows.",
+    link: "https://github.com/rajeshsharma98/Experiments-Implementations",
+  },
+  {
+    img: `${getImagePrefix()}image/ump.png`,
+    title: "Unique Meal Plan Prepration",
+    desc: "Built a bipartite graph-based system to recommend meal plans based on nutritional values and ingredient compatibility. Designed a custom graph embedding (not based on conventional DeepWalk) and applied K-Means clustering to group similar ingredients. Enabled allergy-aware substitutions for dietary constraints. The model supports ingredient-level personalization and aims to assist hospitals and individuals in preparing nutrition-optimized recipes with minimal human intervention.",
+    link: "https://github.com/rajeshsharma98/Unique_Meal_plan",
+  },
+ 
   {
     img: `${getImagePrefix()}image/rtr.png`,
     title: "Rent the Runway",
@@ -30,12 +57,7 @@ const PROJECTS = [
     desc: "Built an NLP-powered pipeline to extract executive names and job titles (e.g., CEO, VP) from M&A press releases using web scraping, Named Entity Recognition, and relationship extraction. Automated the analysis of SEC filings and business blogs to identify key delegates involved in high-value deals, reducing manual effort in business intelligence workflows.",    
     link: "https://github.com/rajeshsharma98/Delegates_Relation_Extraction",
   },
-  {
-    img: `${getImagePrefix()}image/ump.png`,
-    title: "Unique Meal Plan Prepration",
-    desc: "Built a bipartite graph-based system to recommend meal plans based on nutritional values and ingredient compatibility. Designed a custom graph embedding (not based on conventional DeepWalk) and applied K-Means clustering to group similar ingredients. Enabled allergy-aware substitutions for dietary constraints. The model supports ingredient-level personalization and aims to assist hospitals and individuals in preparing nutrition-optimized recipes with minimal human intervention.",
-    link: "https://github.com/rajeshsharma98/Unique_Meal_plan",
-  },
+  
   {
     img: `${getImagePrefix()}image/pfr.png`,
     title: "Personalized Fashion Recommendation",
@@ -43,6 +65,9 @@ const PROJECTS = [
     link: "https://github.com/rajeshsharma98/Personalized_Fashion_Recommendation",
   },
 
+
+
+ 
 ];
 
 export function Projects() {
